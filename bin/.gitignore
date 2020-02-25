@@ -8,3 +8,10 @@
 /addWord.class
 /rmvWord.class
 /selectWord.class
+/.classpath
+/.gitignore
+/.project
+/DictionaryApplication/
+/app/
+/graphical/
+/util/
