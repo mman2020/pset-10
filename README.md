@@ -39,7 +39,7 @@ There are a few different ways to build GUIs in Java, and you're welcome to use 
 * Swing
 * JavaFX
 
-Oracle provides thorough [documentation and tutorials](https://docs.oracle.com/javase/8/javase-clienttechnologies.htm) for both of these.
+Oracle provides thorough [documentation and tutorials](https://docs.oracle.com/javase/8/javase-clienttechnologies.htm) for both of these. JavaFX can be a little tricky to setup in Eclipse, so here's [a video tutorial](https://www.youtube.com/watch?v=oVn6_2KuYbM) that a few of you have already found helpful.
 
 Here's a sample of what the basic layout of the app should look like. Feel free to make it your own and enhance this wireframe as needed.
 
@@ -99,13 +99,15 @@ There are many ways to programmatically read data formatted in this manner into 
 
 You'll be responsible for persisting any changes you make to the data (i.e., if a user adds or removes a word). Any library that can read JSON data will almost certainly be able to write it, too.
 
+If you've never used the Gson library (which you probably haven't), [take a look at this tutorial](http://tutorials.jenkov.com/java-json/gson.html). If you're unfamiliar with JSON in general, you can [check out this tutorial](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON).
+
 ## Deadline
 
 Please read very carefully. Historically, most students lose points on problem sets for simply failing to read the instructions and requirements.
 
-* February 23, 2020, at 11:59pm.
+* March 1, 2020, at 11:59pm.
 
-If you submit your problem set at midnight (i.e., February 24, 2020, at 12:00am), it is considered **late**!
+If you submit your problem set at midnight (i.e., March 2, 2020, at 12:00am), it is considered **late**!
 
 ### Submission Requirements
 
