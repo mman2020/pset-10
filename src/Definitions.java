@@ -1,24 +1,30 @@
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.util.ArrayList;
-import com.google.gson.Gson;
-import com.google.gson.JsonIOException;
-import com.google.gson.JsonSyntaxException; 
-
 public class Definitions {
-	
-	private String definition;
-	private String partOfSpeech;
-	
-	public void definitions(String definition, String partsOfSpeech) {
-		this.definition = definition;
-		this.partOfSpeech = partsOfSpeech;
+
+    private String definition;
+    private String partOfSpeech;
+
+    public Definitions(String string, String string2) {
+    	this.definition = definition;
+        this.partOfSpeech = partOfSpeech;
 	}
 
-	public String getDefinition() {
-		return this.definition;
-	}
-	public String getPartOfSpeech() {
-		return this.partOfSpeech;
-	}
+	public void definitions(String definition, String partsOfSpeech) {
+        this.definition = definition;
+    }
+
+    public String getDefinition() {
+        return this.definition;
+    }
+
+    public String getPartOfSpeech() {
+        return this.partOfSpeech;
+    }
+
+    public void setDefinition(String definition) {
+        this.definition = definition;
+    }
+
+    public void setPartOfSpeech(String partOfSpeech) {
+        this.partOfSpeech = partOfSpeech;
+    }
 }
